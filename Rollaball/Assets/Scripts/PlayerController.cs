@@ -68,7 +68,7 @@ public class PlayerController : MonoBehaviour
 
             SetCountText(); //calls the count
 
-            Vector3 randomPosition = new Vector3(Random.Range(-5f, 5f), Random.Range(4f, 6f), Random.Range(-5f, 5f)); //Random range of positions that new collectibles respwan at
+            Vector3 randomPosition = new Vector3(Random.Range(-5f, 5f), Random.Range(2f, 4f), Random.Range(-5f, 5f)); //Random range of positions that new collectibles respwan at
             Instantiate(spawnablePickup, randomPosition, spawnablePickup.transform.rotation); //creates new collectible when one is collected at random point
 
 
