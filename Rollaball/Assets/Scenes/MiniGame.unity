@@ -1760,6 +1760,8 @@ MonoBehaviour:
   speed: 10
   countText: {fileID: 1494259683}
   winTextObject: {fileID: 909721561}
+  spawnablePickup: {fileID: 6636076400475590609, guid: 3d8f3239a3852ef498dde42391b9668f,
+    type: 3}
 --- !u!114 &1686784284
 MonoBehaviour:
   m_ObjectHideFlags: 0
