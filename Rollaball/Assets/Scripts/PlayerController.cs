@@ -12,8 +12,11 @@ public class PlayerController : MonoBehaviour
 
     private Rigidbody rb;
     private int count;
+
     private float movementX;
     private float movementY;
+
+    public GameObject spawnablePickup;
 
     // Start is called before the first frame update
     void Start()
