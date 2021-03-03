@@ -63,6 +63,13 @@ public class PlayerController : MonoBehaviour
 
             Vector3 randomPosition = new Vector3(Random.Range(-5f, 5f), Random.Range(4f, 6f), Random.Range(-5f, 5f));
             Instantiate(spawnablePickup, randomPosition, spawnablePickup.transform.rotation);
+
+
+        }
+
+        if (other.gameObject.CompareTag("BoostPad"))
+        {
+            rb.AddForce(Vector3.up * 500f);
         }
     }
 }
