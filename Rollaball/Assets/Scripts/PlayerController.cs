@@ -60,6 +60,9 @@ public class PlayerController : MonoBehaviour
             count = count + 1;
 
             SetCountText();
+
+            Vector3 randomPosition = new Vector3(Random.Range(-5f, 5f), Random.Range(4f, 6f), Random.Range(-5f, 5f));
+            Instantiate(spawnablePickup, randomPosition, spawnablePickup.transform.rotation);
         }
     }
 }
